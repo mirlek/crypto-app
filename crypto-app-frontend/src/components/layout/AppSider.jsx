@@ -17,7 +17,7 @@ const { assets} = useContext(CryptoContext)
     <Layout.Sider width="25%" style={siderStyle}>
         {assets.map((asset) => (
           <Card
-              key={assets.id}
+              key={asset.id}
               bordered={false}
               style={{
                 margin: '1rem',
