@@ -41,6 +41,7 @@ export default function AppHeader() {
       <Select
         style={{
           width: 250,
+          margin: 15
         }}
         open={select}
         onSelect={handleSelect}

@@ -29,9 +29,9 @@ export default function PortfolioChart() {
     <div
       style={{
         display: 'flex',
-        marginBottom: '1rem',
+        marginBottom: '2rem',
         justifyContent: 'center',
-        height: 400,
+        height: 400
       }}
     >
       <Pie data={data} />
